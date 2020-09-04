@@ -2,7 +2,7 @@
     Author: Hasen il Judy
     License: GPL v2
 """
-import forms
+from arabic_rtlize import forms
        
 def iter_context(string):
     """Iterate over a string, returning a context, not just a letter
