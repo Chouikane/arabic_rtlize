@@ -133,7 +133,7 @@ def put_harakat(harakat_info, plain):
         
 
 # Get the next unicode character
-next = lambda x: unichr(ord(x)+1)
+next = lambda x: chr(ord(x)+1)
 
 def forms4(standard, isolated):
     """Register a harf. short-cut to add_forms"""
